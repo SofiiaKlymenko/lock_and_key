@@ -1,0 +1,15 @@
+/Users/sofiaklymenko/Projects/Exam/exam/bin/Debug/net7.0/exam
+/Users/sofiaklymenko/Projects/Exam/exam/bin/Debug/net7.0/exam.deps.json
+/Users/sofiaklymenko/Projects/Exam/exam/bin/Debug/net7.0/exam.runtimeconfig.json
+/Users/sofiaklymenko/Projects/Exam/exam/bin/Debug/net7.0/exam.dll
+/Users/sofiaklymenko/Projects/Exam/exam/bin/Debug/net7.0/exam.pdb
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/exam.csproj.AssemblyReference.cache
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/exam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/exam.AssemblyInfoInputs.cache
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/exam.AssemblyInfo.cs
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/exam.csproj.CoreCompileInputs.cache
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/exam.dll
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/refint/exam.dll
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/exam.pdb
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/exam.genruntimeconfig.cache
+/Users/sofiaklymenko/Projects/Exam/exam/obj/Debug/net7.0/ref/exam.dll
