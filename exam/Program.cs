@@ -12,7 +12,7 @@ namespace Exam
         static void Main(string[] args)
         {
             int[,] arrLock = GetUser2DArr();
-            int[,] arrKey = GetUser2DArr();
+            int[,] arrKey = KeySmallerThanLock(GetUser2DArr(), arrLock);
 
             string resultMessage = GetKeyToLockResult(arrLock, arrKey);
 
@@ -123,6 +123,33 @@ namespace Exam
         {
             int absStepNum = Math.Abs(stepNum);
             return absStepNum > 1 ? absStepNum + " steps" : absStepNum + " step";
+        }
+
+        public static int[,] KeySmallerThanLock(int[,] arrKey, int[,] arrLock)
+        {
+            int[,] arrNew = new int[arrLock.GetLength(0), arrLock.GetLength(1)];
+            if (arrKey.GetLength(0) < arrLock.GetLength(0) || arrKey.GetLength(1) < arrLock.GetLength(1))
+            {
+                for (int i = 0; i < arrNew.GetLength(0); i++)
+                {
+                    for (int j = 0; j < arrNew.GetLength(1); j++)
+                    {
+                        if (i < arrKey.GetLength(0) && j < arrKey.GetLength(1))
+                        {
+                            arrNew[i, j] += arrKey[i, j];
+                        }
+                        else
+                        {
+                            arrNew[i, j] += 0;
+                        }
+                    }
+                }
+                return arrNew;
+            }
+            else
+            {
+                return arrKey;
+            }
         }
 
         public static int[,] InputArr(int n, int m)

@@ -1,5 +1,23 @@
-﻿<Properties StartupConfiguration="{7ECBA3A4-2583-4ABA-AC8C-F2D5CEA935D9}|Default">
+﻿<Properties StartupConfiguration="{7ECBA3A4-2583-4ABA-AC8C-F2D5CEA935D9}|Default" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="exam/Program.cs">
+    <Files>
+      <File FileName="exam/Program.cs" Line="25" Column="78" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="exam" expanded="True">
+            <Node name="exam" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.exam PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
