@@ -80,7 +80,7 @@ namespace Exam
             int countLastStepY = countNeededOffset(lastLockCoordinates[0], lastKeyCoordinates[0]);
             int countLastStepX = countNeededOffset(lastLockCoordinates[1], lastKeyCoordinates[1]);
 
-            if (countFirsStepY != countLastStepY || countFirstStepX != countLastStepX)
+            if (!isKeyFit(arrLock, arrKey, countFirstStepX, countFirsStepY))
             {
                 return $"The key does not fit into the lock.";
             }
@@ -117,6 +117,24 @@ namespace Exam
             {
                 return -(lockNum - keyNum);
             }
+        }
+
+        public static bool isKeyFit(int[,] arrLock, int[,] arrKey, int offsetX, int offsetY)
+        {
+            for (int i = 0; i < arrLock.GetLength(0); i++)
+            {
+                for (int j = 0; j < arrLock.GetLength(1); j++)
+                {
+                    if (arrLock[i,j] == 0)
+                    {
+                        if (arrKey[i + offsetY, j + offsetX] == 0)
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+            return true;
         }
 
         public static string formatNumStepsOrStep(int stepNum)
